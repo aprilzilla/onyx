@@ -1,0 +1,112 @@
+/*
+font-family: 'Tajawal', sans-serif;
+font-family: 'Covered By Your Grace', cursive;*/
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+.navbar-brand {
+    font-family: 'Covered By Your Grace', cursive;
+    letter-spacing: .2em;
+}
+.hero p {
+    text-align: left;
+}
+.carousel-caption {
+    text-align: left;
+    padding: 0;
+}
+
+.carousel-caption h5, .carousel-caption p, .carousel-caption {
+    text-shadow: 1px 1px 6px rgba(0,0,0,1);
+}
+
+.carousel .carousel-inner img{
+    min-width: 100%;
+    height: 450px;
+    object-fit: cover;
+    overflow: hidden; 
+}
+
+.btn {
+    font-family: 'Covered By Your Grace', cursive;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    background-color: #1573B7;
+    border: none;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 2em;
+}
+
+h6 {
+    padding-top: 40px;
+    font-weight: 800;
+    font-size: 1.5em;
+    text-align: center;
+}
+p {
+    font-size: 1.4em;
+}
+p, .foot li {
+    text-align: center;
+}
+.card {
+    width: 80%;
+}
+.foot li {
+    line-height: .5em;  
+}
+.foot a {
+    color: white;
+    font-weight: 200;
+}
+a:hover {
+    color: grey;
+}
+.foot h6 {
+    color: white;
+    font-size: 1.25em;
+}
+.cards, .shop {
+    background-color: #1573B7;
+}
+.foot {
+    background-color: black;
+}
+.shop .carousel-caption {
+    text-align: left;
+    font-weight: 800;
+    font-size: 1.75em;
+}
+.men, .women {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 576px){
+    .footer li, .footer h6 {
+        text-align: left;
+    }
+    .card {
+        width: 48%;
+    }
+}
+@media only screen and (min-width: 768px){
+    .card {
+        width: 30%;
+    }
+    .carousel .carousel-inner img {
+        height: 550px;
+    }
+    .men, .women {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .carousel .carousel-inner img {
+        height: 650px;
+    }
+}
